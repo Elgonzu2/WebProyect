@@ -5,7 +5,5 @@ from core.topiapp.models import Crear_Usuario
 # Create your views here.
 
 def myfirstview(request):
-    data = {
-        'name':
-    }
-    return render(request, 'index.html', data)
+    
+    return render(request, 'index.html')
