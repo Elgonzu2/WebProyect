@@ -1,11 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-  
-    <title>AlquiWeb / Tu sitio de alquiler</title>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'lib/bootstrap-4.4.1-dist/css/boostrap.min.css' %}">
+  <script src="{% static 'lib/bootstrap-4.4.1-dist/js/jquery-3.4.1.slim.min.js'%%}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <h1>{{ name }}</h1>
+
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p>
+</div>
+
 </body>
 </html>
