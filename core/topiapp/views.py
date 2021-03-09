@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 # Create your views here.
 
 def myfirstview(request):
     data = {
-        'name': "TuMadre"
+        'name': 'Irma'
     }
     return render(request, 'index.html', data)
