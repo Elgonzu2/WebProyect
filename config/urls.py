@@ -19,5 +19,5 @@ from core.topiapp.views import myfirstview
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('prueba/', include('core.topiapp.urls'))
+    path('home/', include('core.topiapp.urls'))
 ]
