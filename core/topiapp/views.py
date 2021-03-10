@@ -7,3 +7,7 @@ from core.topiapp.models import Crear_Usuario
 def myfirstview(request):
     
     return render(request, 'home.html')
+
+def mysecondview(request):
+
+	return render(request, 'publicaciones.html')
